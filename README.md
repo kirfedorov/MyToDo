@@ -1,7 +1,7 @@
 Приложение # MyToDo + LocalStorage.
 ----------------------------------------------------------------
-Напишите в терминале VS Code
-git clone https://github.com/kirfedorov/MyToDo.git
+Напишите в терминале VS Code:
+'git clone https://github.com/kirfedorov/MyToDo.git'
 
 После клонирования, запустите index.html
 
