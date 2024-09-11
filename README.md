@@ -1,10 +1,15 @@
 Приложение # MyToDo + LocalStorage.
 ----------------------------------------------------------------
-Напишите в терминале VS git clone https://github.com/kirfedorov/MyToDo.git
+Напишите в терминале VS Code
+git clone https://github.com/kirfedorov/MyToDo.git
+
 После клонирования, запустите index.html
 
 Приложение использует LocalStorage.
 *localStorage — это место в браузере пользователя, в котором сайты могут сохранять разные данные. 
 Это как ящик для хранения вещей, которые не исчезнут, даже если вы выключите компьютер или закроете браузер.
+
+Чтобы просмотреть наполняемость хранилища используйте DEVTools
+( F12 в браузере > Application > LocalStorage ).
 
 TODO list on js + using local storage
