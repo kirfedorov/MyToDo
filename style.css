@@ -1,0 +1,143 @@
+ html {
+   box-sizing: border-box;
+ }
+
+ :root {}
+
+ *,
+ *::before,
+ *::after {
+   box-sizing: inherit;
+ }
+
+ a,
+ button {
+   color: inherit;
+   text-decoration: none;
+   outline: none;
+ }
+
+ img {
+   max-width: 100%;
+ }
+
+ body {
+   font-family: "Roboto", sans-serif;
+ }
+
+ /* glob*/
+ .btn-reset {
+   padding: 0;
+   border: none;
+   background-color: transparent;
+   cursor: pointer;
+ }
+
+ .flex {
+   display: flex;
+ }
+
+ .section-offset {
+   padding-top: 40px;
+   padding-bottom: 40px;
+ }
+
+ .visibility-hidden {
+   visibility: hidden;
+ }
+
+ /* Сброс */
+ h1,
+ h2,
+ h3,
+ p,
+ figure,
+ ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+ }
+
+ .list-reset {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+ }
+
+ .container {
+   margin: 0 auto;
+   max-width: 1180px;
+   padding: 0 0px;
+   padding-left: 15px;
+   padding-right: 15px;
+ }
+
+ /* Hero */
+ .header {
+   padding: 30px 0;
+   /* background: radial-gradient(#5e8e9ccb, #29196e); */
+   background-color: #131313;
+   outline: 1px solid rgb(139, 139, 139);
+ }
+
+ .header__container {
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .hero {
+   padding-top: 25px;
+   min-height: 700px;
+   background: #FFFFFF;
+ }
+
+ .li__container {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+ }
+
+ .emtylist {
+   outline: 1px solid red;
+   border-radius: 2px;
+   text-align: center;
+ }
+
+ .li__container__info {
+   padding: 5px;
+   gap: 5px;
+ }
+
+ .li__container_btn {
+   display: flex;
+   flex-direction: row;
+   gap: 5px;
+   align-items: center;
+
+ }
+
+ .none {
+   display: none !important;
+ }
+
+ .btn-action svg {
+   pointer-events: none;
+ }
+
+ .task-title--done {
+   background-color: rgb(218, 255, 5);
+   color: #272727;
+   text-decoration: line-through;
+ }
+
+ .list-group-item {
+   padding: 0;
+ }
+
+ .li__status {
+   background-color: rgba(233, 233, 233, 0.349);
+   padding: 6px;
+   line-height: 12px;
+ }
